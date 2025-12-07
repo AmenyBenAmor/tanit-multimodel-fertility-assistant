@@ -1,0 +1,36 @@
+# Core Dependencies
+gradio==4.19.0
+torch>=2.0.0
+pillow>=10.0.0
+
+# Speech-to-Text
+openai-whisper>=20231117
+sounddevice>=0.4.6
+scipy>=1.11.0
+numpy>=1.24.0
+
+# Text-to-Speech
+gtts>=2.5.0
+
+# Computer Vision (Florence2)
+transformers>=4.37.0
+accelerate>=0.26.0
+
+# GraphRAG & Vector Store
+langchain>=0.1.0
+langchain-community>=0.0.10
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# Graph Processing
+networkx>=3.2
+
+# PDF Processing
+pypdf>=3.17.0
+PyPDF2>=3.0.0
+
+# Hugging Face
+huggingface-hub>=0.20.0
+
+# Utilities
+pathlib
