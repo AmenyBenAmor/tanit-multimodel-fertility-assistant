@@ -35,7 +35,6 @@ huggingface-hub>=0.20.0
 # Utilities
 
 pathlib
-print("📦 Installation des dépendances système...")
 !apt-get update -qq
 !apt-get install -y -qq portaudio19-dev python3-pyaudio
 print("✅ Dépendances système installées\n")
@@ -52,3 +51,4 @@ print("✅ Dépendances système installées\n")
 !pip install -q pillow
 
 print("✅ Tous les packages sont installés!\n")
+
