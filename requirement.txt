@@ -33,4 +33,22 @@ PyPDF2>=3.0.0
 huggingface-hub>=0.20.0
 
 # Utilities
+
 pathlib
+print("📦 Installation des dépendances système...")
+!apt-get update -qq
+!apt-get install -y -qq portaudio19-dev python3-pyaudio
+print("✅ Dépendances système installées\n")
+#gradioapp
+!pip install -q pyaudio sounddevice
+!pip install -q gradio
+!pip install -q openai-whisper
+!pip install -q gtts
+!pip install -q scipy
+!pip install -q transformers
+!pip install -q torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+!pip install -q langchain langchain-community
+!pip install -q chromadb
+!pip install -q pillow
+
+print("✅ Tous les packages sont installés!\n")
